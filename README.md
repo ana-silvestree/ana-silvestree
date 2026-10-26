@@ -2,122 +2,158 @@
 
 # Ana Clara Silvestre
 
-### Bacharelado em Ciência da Computação • Inteli
-**Engenharia de Software | Ciência de Dados & Machine Learning | Estratégia de Negócios**
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=620&lines=Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%E2%80%A2+Inteli;Engenharia+de+Software+%2B+Machine+Learning;Solu%C3%A7%C3%B5es+Corporativas+Orientadas+a+Dados;Vis%C3%A3o+de+Produto+%2B+Estrat%C3%A9gia" alt="Typing SVG" />
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ana_Clara_Silvestre-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
-[![Email](https://img.shields.io/badge/Email-anas.silvestres%40gmail.com-1E293B?style=flat-square&logo=gmail&logoColor=white)](mailto:anas.silvestres@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-ana--silvestree-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ana-silvestree)
-[![Instituição](https://img.shields.io/badge/Instituição-Inteli-4F46E5?style=flat-square)](https://www.inteli.edu.br)
-[![Localização](https://img.shields.io/badge/Localização-São_Paulo,_SP-475569?style=flat-square)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ana_Clara_Silvestre-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
+[![Email](https://img.shields.io/badge/Email-anas.silvestres%40gmail.com-1E293B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.silvestres@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-ana--silvestree-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ana-silvestree)
+
+</div>
+
+<br />
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h4>Engenharia de Software</h4>
+      <sub>Arquiteturas web distribuídas, sistemas <i>offline-first</i>, APIs RESTful e integridade com testes automatizados.</sub>
+    </td>
+    <td align="center" width="33%">
+      <h4>Ciência de Dados & IA</h4>
+      <sub>Pipelines analíticos, engenharia de atributos, séries temporais e modelagem preditiva com LightGBM.</sub>
+    </td>
+    <td align="center" width="33%">
+      <h4>Estratégia & Produto</h4>
+      <sub>Diagnóstico de dores de negócio, levantamento formal de requisitos, controladoria financeira e metodologias ágeis.</sub>
+    </td>
+  </tr>
+</table>
+</div>
+
+---
+
+### Projetos em Destaque
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">MAHLE</h3>
+      <p align="center"><strong>Previsão de Produção Automotiva com Machine Learning</strong></p>
+      <p align="center"><em>Inteli & MAHLE</em></p>
+      <p align="justify">
+        Modelo analítico preditivo desenvolvido para estimativa da produção veicular na América Latina. O pipeline integra variáveis macroeconômicas a séries históricas industriais, empregando <strong>LightGBM</strong> com validação temporal estrita contra vazamento de dados.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/LightGBM-008080?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">AgroFlow</h3>
+      <p align="center"><strong>Sistema Web para Gestão de Rebanho Offline-First</strong></p>
+      <p align="center"><em>Inteli & BrPec Agropecuária</em></p>
+      <p align="justify">
+        Solução digital full-stack projetada para continuidade operacional no campo em cenários com conectividade intermitente. Implementa persistência local com sincronização bidirecional, backend em <strong>Node.js/Express</strong>, <strong>PostgreSQL</strong> via Supabase e autenticação por QR Code.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">MegaHub</h3>
+      <p align="center"><strong>Solução Interativa para o Centro de Operações</strong></p>
+      <p align="center"><em>Inteli & Metrô de São Paulo</em></p>
+      <p align="justify">
+        Ambiente digital interativo concebido para difusão didática das dinâmicas operacionais de transporte sobre trilhos para visitantes do Centro de Operações. Desenvolvido em <strong>JavaScript</strong> nativo com o motor de física 2D <strong>Phaser 3</strong> e design centrado na experiência do usuário (UX).
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/Phaser_3-000000?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/UX_Design-6366F1?style=flat-square&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Arsenal Técnico
+
+<div align="center">
+
+| Linguagens & Core | Backend & Bancos de Dados | Dados & Machine Learning | Metodologias & Ferramentas |
+| :---: | :---: | :---: | :---: |
+| Python | Node.js / Express | LightGBM | Git & GitHub |
+| JavaScript | PostgreSQL | Scikit-Learn | Scrum & Kanban |
+| TypeScript | Supabase | Pandas & NumPy | Metodologia PBL |
+| SQL | RESTful APIs | Séries Temporais | Testes com Jest |
+| HTML5 & CSS3 | Arquitetura Offline-First | Feature Engineering | Análise de Requisitos |
+
+</div>
+
+<br />
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,express,react,postgres,supabase,git,github,jest,html,css" alt="Tech Stack Icons" />
 
 </div>
 
 ---
 
-## Resumo Profissional
+### Liderança & Atuação Institucional
 
-Estudante de Ciência da Computação no **Inteli (Instituto de Tecnologia e Liderança)** com formação prática orientada a projetos e resolução de problemas reais em parceria com empresas. Atuação na interseção entre **Engenharia de Software**, **Análise de Dados / Inteligência Artificial** e **Estratégia de Negócios**, cobrindo desde a imersão na dor do usuário e levantamento de requisitos até arquitetura técnica, desenvolvimento, testes e validação. Perfil com forte capacidade analítica, visão de produto e liderança colaborativa.
-
----
-
-## Formação Acadêmica
-
-**Inteli – Instituto de Tecnologia e Liderança**  
-*Bacharelado em Ciência da Computação* | Previsão de Formatura: 2029 | São Paulo, SP  
-- Metodologia baseada em aprendizagem por projetos (*Project-Based Learning — PBL*) com entregas reais para o mercado integrando computação, negócios e liderança.
-
----
-
-## Experiência em Projetos Corporativos
-
-### MAHLE — Previsão de Produção com Dados e Inteligência Artificial
-**Inteli & MAHLE** | *2026 – atual*
-
-Desenvolvimento de solução analítica preditiva para estimativa da produção de veículos na América Latina, utilizando dados históricos e variáveis econômicas do setor automotivo.
-
-- **Preparação e Engenharia de Atributos:** Tratamento, higienização e estruturação da base analítica, aplicando técnicas de engenharia de atributos (*feature engineering*) e normalização de variáveis macroeconômicas.
-- **Modelagem Preditiva com Machine Learning:** Implementação e avaliação de modelo preditivo utilizando **LightGBM**, aplicando validação temporal estrita (*time-series split*) para garantir acurácia e mitigar riscos de vazamento de dados (*data leakage*).
-- **Métricas e Suporte à Decisão:** Análise contínua de métricas de desempenho considerando as características da série histórica industrial, integrando ciência da computação e visão de negócio para apoiar o planejamento de produção e suprimentos.
-
-> **Stack Técnica:** Python, LightGBM, Pandas, NumPy, Scikit-Learn, Séries Temporais, Análise Exploratória.
+<div align="center">
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <strong>Inteli Júnior</strong><br />
+      <sub>Administradora Financeira</sub><br /><br />
+      <small>Controladoria, planejamento orçamentário e fluxo de caixa da empresa júnior institucional.</small>
+    </td>
+    <td width="33%" align="center">
+      <strong>Coletivo Grace Hopper</strong><br />
+      <sub>Trainee de Liderança</sub><br /><br />
+      <small>Iniciativas institucionais de liderança feminina, diversidade e networking no ecossistema de tecnologia.</small>
+    </td>
+    <td width="33%" align="center">
+      <strong>Agrotech</strong><br />
+      <sub>Trainee de Inovação</sub><br /><br />
+      <small>Pesquisa mercadológica, levantamento formal de requisitos técnicos e análise de dados para o agronegócio.</small>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
-### AgroFlow — Sistema Web para Gestão de Rebanho
-**Inteli & BrPec Agropecuária** | *2026*
+### Métricas no GitHub
 
-Desenvolvimento full-stack de solução digital com arquitetura *offline-first* e sincronização de dados para cenários rurais com conectividade baixa ou nula.
+<div align="center">
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=ana-silvestree&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&title_color=6366f1&icon_color=818cf8&text_color=94a3b8&bg_color=0b0f19" alt="Estatísticas GitHub" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ana-silvestree&layout=compact&theme=dark&hide_border=true&title_color=6366f1&text_color=94a3b8&bg_color=0b0f19" alt="Linguagens mais utilizadas" />
+</div>
 
-- **Arquitetura Offline-First:** Persistência local e mecanismo de sincronização bidirecional resiliente quando a conexão de rede é restabelecida.
-- **Backend e Persistência:** Implementação de API REST em **Node.js** e **Express**, conectada ao banco de dados relacional **PostgreSQL (Supabase)**, com autenticação ágil por **QR Code**.
-- **Atuação End-to-End:** Levantamento técnico de requisitos com o parceiro agropecuário, modelagem relacional de dados, suíte de testes automatizados com **Jest** e validação direta com usuários de campo.
+<br />
 
-> **Stack Técnica:** Node.js, Express, PostgreSQL, Supabase, Jest, REST APIs, TypeScript, JavaScript.
-
----
-
-### MegaHub — Sistema Interativo e Gamificação para Centro de Operações
-**Inteli & Metrô de São Paulo** | *2026*
-
-Criação de protótipo digital interativo voltado à difusão de processos operacionais e logísticos para visitantes técnicos do Centro de Operações do Metrô de São Paulo.
-
-- **Desenvolvimento de Mecânicas:** Desenvolvimento integral em **JavaScript** sobre HTML5 Canvas utilizando o motor de física 2D **Phaser 3**.
-- **Design Centrado no Usuário (UX):** Definição de requisitos de usabilidade, mapeamento de jornadas e interfaces acessíveis para perfis heterogêneos.
-- **Metodologias Ágeis:** Condução iterativa de ciclos de validação sob framework Scrum/Kanban com equipes de operações e comunicação institucional.
-
-> **Stack Técnica:** JavaScript, Phaser 3, HTML5 Canvas, UX Design, Metodologias Ágeis (Scrum/Kanban).
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ana-silvestree&theme=dark&hide_border=true&stroke=6366f1&background=0b0f19&ring=6366f1&fire=818cf8&currStreakLabel=6366f1" alt="Streak Stats" />
+</div>
 
 ---
 
-## Experiência Extracurricular & Liderança
-
-### Inteli Júnior
-**Administradora Financeira** | *ago. 2026 – atual*
-- Gestão financeira e planejamento orçamentário da empresa júnior institucional.
-- Controle de fluxo de caixa, conciliação bancária, relatórios gerenciais e fornecimento de subsídios analíticos para decisões financeiras estratégicas da diretoria.
-
-### Coletivo Feminino Grace Hopper
-**Trainee** | *abr. 2026 – atual*
-- Atuação ativa em iniciativas institucionais dedicadas ao desenvolvimento de liderança, diversidade, inclusão e ampliação de networking feminino no ecossistema tecnológico.
-
-### Agrotech
-**Trainee** | *ago. 2026 – atual*
-- Apoio na concepção de soluções tecnológicas para o agronegócio.
-- Condução de pesquisas de mercado, levantamento formal de requisitos técnicos de campo e análise de dados para otimização de processos do setor agropecuário.
-
----
-
-## Competências Técnicas & Metodológicas
-
-| Categoria | Competências e Tecnologias |
-| :--- | :--- |
-| **Tecnologia & Desenvolvimento** | Python, JavaScript, TypeScript, Node.js, Express, React, PostgreSQL, SQL, APIs REST, Supabase, Git, GitHub, Jest |
-| **Dados & Machine Learning** | LightGBM, Scikit-Learn, Pandas, NumPy, Engenharia de Atributos (*Feature Engineering*), Validação Temporal, Séries Temporais, Análise Exploratória (EDA) |
-| **Produto, Negócios & Métodos** | Análise de Requisitos, Modelagem de Dados, Análise SWOT, Mapeamento de Processos, Raciocínio Analítico, Metodologias Ágeis (Scrum, Kanban), Project-Based Learning (PBL) |
-| **Governança & Gestão** | Planejamento Orçamentário, Gestão de Fluxo de Caixa, Controladoria, Comunicação Estratégica, Resolução de Problemas Complexos |
-
----
-
-## Certificações em Destaque
-
-- **Mentoria Feminina em Mercado Financeiro** — Grupo de Mercado Financeiro (GMF Unicamp, 2026)
-- **Liderança Corporativa** — Santander Open Academy (2026)
-- **Curso Completo de SQL: Do Básico ao Avançado** — Udemy (2026)
-- **Qualidade de Software e Testes Automatizados** — Udemy (2026)
-- **Desenvolvimento Pessoal e Liderança** — Instituto Severino Ballesteros (2025)
-
----
-
-## Idiomas
-
-- **Português:** Nativo
-- **Inglês:** Intermediário
-
----
-
-## Contato Profissional
-
-- **LinkedIn:** [linkedin.com/in/ana-clara-silvestre-328706326](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
-- **E-mail:** [anas.silvestres@gmail.com](mailto:anas.silvestres@gmail.com)
-- **GitHub:** [github.com/ana-silvestree](https://github.com/ana-silvestree)
+<div align="center">
+  <sub>Ana Clara Silvestre • Ciência da Computação @ Inteli • 2026</sub>
+</div>
