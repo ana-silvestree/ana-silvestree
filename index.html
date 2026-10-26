@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Clara Silvestre | Portfólio & Engenharia de Software</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfólio de Ana Clara Silvestre - Estudante de Ciência da Computação no Inteli. Atuação na interseção entre Engenharia de Software, Ciência de Dados, IA e Visão de Negócios.">
+  <meta name="keywords" content="Ana Clara Silvestre, Inteli, Ciência da Computação, Engenharia de Software, Machine Learning, LightGBM, Node.js, React, Portfólio GitHub">
+  <meta name="author" content="Ana Clara Silvestre">
+  
+  <!-- Open Graph / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ana Clara Silvestre | Software, Dados & Produto">
+  <meta property="og:description" content="Estudante de Ciência da Computação @ Inteli. Projetos desenvolvidos com MAHLE, Metrô de SP e BrPec.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Efeito de fundo decorativo com gradientes -->
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+  
+  <!-- Header / Barra de Navegação -->
+  <header class="header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-symbol">&lt;</span>
+        <span class="logo-name">ACS</span>
+        <span class="logo-symbol">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="navMenu">
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#trajetoria" class="nav-link">Trajetória</a>
+        <a href="#certificacoes" class="nav-link">Certificações</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+        <a href="#contato" class="btn btn-sm btn-primary">Fale Comigo</a>
+        <button id="mobileMenuBtn" class="mobile-toggle" aria-label="Abrir menu de navegação">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção Hero -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="pulse-dot"></span>
+            <span>Estudante de Ciência da Computação @ Inteli</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Olá, sou a <span class="gradient-text">Ana Clara Silvestre</span>.
+          </h1>
+
+          <p class="hero-role">
+            Engenharia de Software <span class="divider-dot">•</span> Análise de Dados & IA <span class="divider-dot">•</span> Visão de Negócios
+          </p>
+
+          <p class="hero-description">
+            Desenvolvo soluções tecnológicas reais de ponta a ponta com metodologia PBL no Inteli. Da imersão nas dores do usuário e levantamento de requisitos até arquitetura de software, modelos preditivos de Machine Learning e testes automatizados.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projetos" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              Ver Projetos
+            </a>
+            <a href="https://www.linkedin.com/in/ana-clara-silvestre-328706326" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0 0-3.28 1.64 1.64 0 0 0 0 3.28m1.4 10.24v-8.37H5.06v8.37z"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:anas.silvestres@gmail.com" class="btn btn-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Email
+            </a>
+          </div>
+
+          <!-- Métricas e Destaques rápidos -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Projetos com Empresas Reais</span>
+            </div>
+            <div class="stat-separator"></div>
+            <div class="stat-item">
+              <span class="stat-number">PBL</span>
+              <span class="stat-label">Metodologia Hands-on Inteli</span>
+            </div>
+            <div class="stat-separator"></div>
+            <div class="stat-item">
+              <span class="stat-number">Finanças</span>
+              <span class="stat-label">Inteli Júnior</span>
+            </div>
+            <div class="stat-separator"></div>
+            <div class="stat-item">
+              <span class="stat-number">2029</span>
+              <span class="stat-label">Previsão de Graduação</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-header">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="code-title">perfil.ts</span>
+            </div>
+            <pre class="code-body"><code><span class="c-keyword">const</span> <span class="c-variable">anaClara</span> = {
+  <span class="c-prop">nome</span>: <span class="c-string">"Ana Clara Silvestre"</span>,
+  <span class="c-prop">instituicao</span>: <span class="c-string">"Inteli (PBL)"</span>,
+  <span class="c-prop">curso</span>: <span class="c-string">"Ciência da Computação"</span>,
+  <span class="c-prop">stackPrincipal</span>: [
+    <span class="c-string">"Python"</span>, <span class="c-string">"LightGBM"</span>,
+    <span class="c-string">"Node.js"</span>, <span class="c-string">"PostgreSQL"</span>,
+    <span class="c-string">"React"</span>, <span class="c-string">"TypeScript"</span>
+  ],
+  <span class="c-prop">lideranca</span>: [
+    <span class="c-string">"Inteli Júnior (Finanças)"</span>,
+    <span class="c-string">"Coletivo Grace Hopper"</span>,
+    <span class="c-string">"Agrotech"</span>
+  ],
+  <span class="c-prop">parceirosDeImpacto</span>: [
+    <span class="c-string">"MAHLE"</span>, <span class="c-string">"BrPec"</span>, <span class="c-string">"Metrô SP"</span>
+  ],
+  <span class="c-function">construirSolucoes</span>() {
+    <span class="c-keyword">return</span> <span class="c-string">"Gerando impacto com dados e código"</span>;
+  }
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Conheça minha trajetória</span>
+          <h2 class="section-title">Sobre Mim</h2>
+          <p class="section-subtitle">
+            Combino rigor analítico, fundamentos sólidos de computação e sensibilidade de negócio para construir produtos com propósito.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <h3>🎓 Formação & Filosofia no Inteli</h3>
+            <p>
+              Estudo Ciência da Computação no <strong>Inteli (Instituto de Tecnologia e Liderança)</strong>, uma instituição orientada à metodologia <em>Project-Based Learning (PBL)</em>. Desde o primeiro período, trabalho em projetos reais sob demanda de parceiros corporativos e governamentais.
+            </p>
+            <p>
+              Meu foco não é apenas programar, mas entender a <strong>raiz do problema</strong>, mapear as dores dos usuários, modelar dados eficientemente e entregar soluções sustentáveis que gerem valor real para os negócios.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">🔍</span>
+                <div>
+                  <strong>Diagnóstico Preciso:</strong>
+                  <span>Levantamento de requisitos, análise SWOT e mapeamento de processos industriais e de campo.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">⚡</span>
+                <div>
+                  <strong>Execução Técnica:</strong>
+                  <span>Arquiteturas modernas, código limpo, APIs REST bem estruturadas e testes automatizados.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🤝</span>
+                <div>
+                  <strong>Liderança Colaborativa:</strong>
+                  <span>Comunicação transparente, gestão financeira em empresa júnior e fomento à diversidade em tecnologia.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card info-card">
+            <h3>📌 Informações Rápidas</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-label">📍 Localização:</span>
+                <span class="info-value">São Paulo, SP (Brasil)</span>
+              </li>
+              <li>
+                <span class="info-label">🏛️ Faculdade:</span>
+                <span class="info-value">Inteli - Ciência da Computação</span>
+              </li>
+              <li>
+                <span class="info-label">📅 Previsão de Formatura:</span>
+                <span class="info-value">2029</span>
+              </li>
+              <li>
+                <span class="info-label">🗣️ Idiomas:</span>
+                <span class="info-value">Português (Nativo) • Inglês (Intermediário)</span>
+              </li>
+              <li>
+                <span class="info-label">✉️ Contato Direto:</span>
+                <span class="info-value">anas.silvestres@gmail.com</span>
+              </li>
+              <li>
+                <span class="info-label">📱 Telefone:</span>
+                <span class="info-value">(31) 98803-8607</span>
+              </li>
+            </ul>
+
+            <div class="quick-cta">
+              <a href="https://www.linkedin.com/in/ana-clara-silvestre-328706326" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary w-full">
+                Ver Perfil no LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos em Destaque -->
+    <section class="section projects-section" id="projetos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Casos de Uso Reais</span>
+          <h2 class="section-title">Projetos em Destaque</h2>
+          <p class="section-subtitle">
+            Soluções completas desenvolvidas em parcerias reais de mercado, cobrindo inteligência artificial, sistemas web distribuídos e experiências gamificadas.
+          </p>
+        </div>
+
+        <!-- Filtros de categoria -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">Todos os Projetos</button>
+          <button class="filter-btn" data-filter="dados">Dados & IA</button>
+          <button class="filter-btn" data-filter="web">Full-Stack & Web</button>
+          <button class="filter-btn" data-filter="jogos">Jogos & UX</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Projeto 1: MAHLE -->
+          <article class="project-card" data-category="dados">
+            <div class="project-banner">
+              <span class="project-tag tag-mahle">Inteli + MAHLE • 2026 - Atual</span>
+              <div class="project-type-badge">Machine Learning & IA</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Previsão de Produção com Dados e Machine Learning</h3>
+              <p class="project-summary">
+                Solução analítica preditiva para estimar com acurácia a produção de veículos na América Latina, integrando séries históricas e variáveis macroeconômicas do setor automotivo.
+              </p>
+              
+              <div class="project-impact-box">
+                <h4>🎯 Atuação & Impactos Técnicos:</h4>
+                <ul>
+                  <li>Tratamento, higienização e engenharia de atributos (feature engineering) para séries temporais.</li>
+                  <li>Desenvolvimento e tunagem de modelo preditivo utilizando <strong>LightGBM</strong>.</li>
+                  <li>Estratégia de validação temporal estrita para replicar cenários reais da indústria sem vazamento de dados (data leakage).</li>
+                  <li>Suporte direto ao planejamento de suprimentos e tomada de decisão executiva.</li>
+                </ul>
+              </div>
+
+              <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">LightGBM</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Scikit-Learn</span>
+                <span class="tech-tag">Time Series</span>
+                <span class="tech-tag">Data Prep</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline open-modal-btn" data-project="mahle">
+                  Ver Detalhes do Projeto
+                </button>
+                <a href="https://www.linkedin.com/in/ana-clara-silvestre-328706326" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  LinkedIn Post
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 2: AgroFlow -->
+          <article class="project-card" data-category="web">
+            <div class="project-banner">
+              <span class="project-tag tag-brpec">Inteli + BrPec Agropecuária • 2026</span>
+              <div class="project-type-badge">Full-Stack Offline-First</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AgroFlow: Sistema Web para Gestão de Rebanho</h3>
+              <p class="project-summary">
+                Aplicação web full-stack offline-first criada especificamente para resolver os desafios de conectividade baixa ou nula no campo durante o manejo pecuário.
+              </p>
+              
+              <div class="project-impact-box">
+                <h4>🎯 Atuação & Impactos Técnicos:</h4>
+                <ul>
+                  <li>Arquitetura resiliente com sincronização inteligente de dados quando a rede é restabelecida.</li>
+                  <li>Backend escalável com <strong>Node.js</strong> e <strong>Express</strong> integrado ao banco relacional <strong>PostgreSQL (Supabase)</strong>.</li>
+                  <li>Autenticação ágil por <strong>QR Code</strong> para agilizar a rotina no curral.</li>
+                  <li>Cobertura de testes automatizados com <strong>Jest</strong> e validação presencial com os pecuaristas.</li>
+                </ul>
+              </div>
+
+              <div class="tech-tags">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">Jest</span>
+                <span class="tech-tag">QR Code Auth</span>
+                <span class="tech-tag">APIs REST</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline open-modal-btn" data-project="agroflow">
+                  Ver Detalhes do Projeto
+                </button>
+                <a href="https://github.com/ana-silvestree" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  Repositório GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 3: MegaHub -->
+          <article class="project-card" data-category="jogos">
+            <div class="project-banner">
+              <span class="project-tag tag-metro">Inteli + Metrô de São Paulo • 2026</span>
+              <div class="project-type-badge">Gamificação & UX</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">MegaHub: Jogo Educativo Digital Interativo</h3>
+              <p class="project-summary">
+                Protótipo digital interativo concebido para os visitantes do Centro de Operações do Metrô de São Paulo, transformando conceitos complexos de transporte sobre trilhos em aprendizado dinâmico.
+              </p>
+              
+              <div class="project-impact-box">
+                <h4>🎯 Atuação & Impactos Técnicos:</h4>
+                <ul>
+                  <li>Desenvolvimento completo da lógica de jogo e física 2D em <strong>JavaScript</strong> com o motor <strong>Phaser 3</strong>.</li>
+                  <li>Engenharia de requisitos centrada na experiência do usuário (UX) e acessibilidade dos visitantes.</li>
+                  <li>Sprints curtas em metodologia ágil para testes de usabilidade e refinamento da jogabilidade.</li>
+                </ul>
+              </div>
+
+              <div class="tech-tags">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Phaser 3</span>
+                <span class="tech-tag">HTML5 Canvas</span>
+                <span class="tech-tag">Game Design</span>
+                <span class="tech-tag">UX/UI</span>
+                <span class="tech-tag">Metodologias Ágeis</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline open-modal-btn" data-project="megahub">
+                  Ver Detalhes do Projeto
+                </button>
+                <a href="https://github.com/ana-silvestree" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  Repositório GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades & Competências -->
+    <section class="section" id="habilidades">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Arsenal Técnico</span>
+          <h2 class="section-title">Habilidades & Competências</h2>
+          <p class="section-subtitle">
+            Habilidades multidisciplinares desenvolvidas na prática, unindo programação rigorosa, análise quantitativa e gestão de negócios.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Coluna 1: Tecnologia & Desenvolvimento -->
+          <div class="skill-category-card">
+            <div class="category-icon">💻</div>
+            <h3>Desenvolvimento de Software</h3>
+            <p>Construção de aplicações robustas, APIs escaláveis e interfaces reativas.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Express</span>
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">Supabase</span>
+              <span class="skill-pill">APIs RESTful</span>
+              <span class="skill-pill">Git & GitHub</span>
+              <span class="skill-pill">Testes com Jest</span>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Dados & Machine Learning -->
+          <div class="skill-category-card">
+            <div class="category-icon">📊</div>
+            <h3>Ciência de Dados & IA</h3>
+            <p>Modelagem analítica, tratamento de dados complexos e aprendizado de máquina.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill">LightGBM</span>
+              <span class="skill-pill">Scikit-Learn</span>
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NumPy</span>
+              <span class="skill-pill">Engenharia de Atributos</span>
+              <span class="skill-pill">Validação Temporal</span>
+              <span class="skill-pill">Séries Temporais</span>
+              <span class="skill-pill">Análise Exploratória (EDA)</span>
+              <span class="skill-pill">Modelagem Relacional</span>
+            </div>
+          </div>
+
+          <!-- Coluna 3: Produto, Negócios & Métodos -->
+          <div class="skill-category-card">
+            <div class="category-icon">🎯</div>
+            <h3>Produto, Negócios & Gestão</h3>
+            <p>Ponte entre a tecnologia e a estratégia empresarial para maximizar resultados.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill">Levantamento de Requisitos</span>
+              <span class="skill-pill">Mapeamento de Processos</span>
+              <span class="skill-pill">Análise SWOT</span>
+              <span class="skill-pill">Gestão Financeira & Orçamento</span>
+              <span class="skill-pill">Raciocínio Analítico</span>
+              <span class="skill-pill">Metodologia Ágil (Scrum/Kanban)</span>
+              <span class="skill-pill">Project-Based Learning (PBL)</span>
+              <span class="skill-pill">Comunicação Estratégica</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Trajetória & Liderança -->
+    <section class="section" id="trajetoria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Além do Código</span>
+          <h2 class="section-title">Liderança & Extracurricular</h2>
+          <p class="section-subtitle">
+            Compromisso com impacto comunitário, gestão estratégica e fortalecimento do ecossistema de tecnologia.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: Inteli Júnior -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Administradora Financeira</h3>
+                  <h4 class="timeline-entity">Inteli Júnior</h4>
+                </div>
+                <span class="timeline-date">ago. 2026 – atual</span>
+              </div>
+              <p class="timeline-description">
+                Responsável pela saúde financeira e planejamento orçamentário da empresa júnior do Inteli. Atuação no controle rigoroso de fluxo de caixa, conciliação bancária, relatórios gerenciais e fornecimento de insumos analíticos para a tomada de decisões financeiras estratégicas.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag-badge">Gestão Financeira</span>
+                <span class="tag-badge">Planejamento Orçamentário</span>
+                <span class="tag-badge">Tomada de Decisão</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Coletivo Grace Hopper -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Trainee de Liderança & Comunidade</h3>
+                  <h4 class="timeline-entity">Coletivo Feminino Grace Hopper</h4>
+                </div>
+                <span class="timeline-date">abr. 2026 – atual</span>
+              </div>
+              <p class="timeline-description">
+                Participação ativa em iniciativas voltadas ao fomento de liderança, diversidade, inclusão e networking feminino em ciência da computação e tecnologia. Organização de workshops, grupos de mentoria e debates técnicos.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag-badge">Liderança Feminina</span>
+                <span class="tag-badge">Diversidade & Inclusão</span>
+                <span class="tag-badge">Networking em STEM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Agrotech -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Trainee de Inovação</h3>
+                  <h4 class="timeline-entity">Agrotech</h4>
+                </div>
+                <span class="timeline-date">ago. 2026 – atual</span>
+              </div>
+              <p class="timeline-description">
+                Apoio na concepção de soluções tecnológicas voltadas ao agronegócio. Execução de pesquisas de mercado, levantamento minucioso de requisitos técnicos no campo e análise de dados para otimização de processos do setor agropecuário.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag-badge">Agtech</span>
+                <span class="tag-badge">Pesquisa de Mercado</span>
+                <span class="tag-badge">Análise de Dados</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Inteli Bacharelado -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Bacharelado em Ciência da Computação</h3>
+                  <h4 class="timeline-entity">Inteli – Instituto de Tecnologia e Liderança</h4>
+                </div>
+                <span class="timeline-date">2025 – 2029 (Previsão)</span>
+              </div>
+              <p class="timeline-description">
+                Formação acadêmica pioneira com foco em aprendizado baseado em projetos reais (PBL). Desenvolvimento de módulos integrando fundamentos de ciência da computação, arquitetura de sistemas, inteligência artificial, negócios e competências socioemocionais.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag-badge">Ciência da Computação</span>
+                <span class="tag-badge">Project-Based Learning</span>
+                <span class="tag-badge">Projetos Reais</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Certificações -->
+    <section class="section" id="certificacoes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Aprendizado Contínuo</span>
+          <h2 class="section-title">Certificações em Destaque</h2>
+          <p class="section-subtitle">
+            Cursos, mentorias e capacitações técnicas e comportamentais para evolução constante.
+          </p>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon">🏛️</div>
+            <div class="cert-info">
+              <h4 class="cert-title">Mentoria Feminina em Mercado Financeiro</h4>
+              <p class="cert-issuer">GMF Unicamp • 2026</p>
+              <span class="cert-tag">Mercado Financeiro & Finanças</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🏆</div>
+            <div class="cert-info">
+              <h4 class="cert-title">Programa de Liderança</h4>
+              <p class="cert-issuer">Santander Open Academy • 2026</p>
+              <span class="cert-tag">Liderança & Gestão</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">💾</div>
+            <div class="cert-info">
+              <h4 class="cert-title">Curso Completo de SQL: Do Básico ao Avançado</h4>
+              <p class="cert-issuer">Udemy • 2026</p>
+              <span class="cert-tag">Banco de Dados Relacional</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🧪</div>
+            <div class="cert-info">
+              <h4 class="cert-title">Qualidade e Testes de Software</h4>
+              <p class="cert-issuer">Udemy • 2026</p>
+              <span class="cert-tag">QA & Testes Automatizados</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🌱</div>
+            <div class="cert-info">
+              <h4 class="cert-title">Desenvolvimento Pessoal e Habilidades Humanas</h4>
+              <p class="cert-issuer">Instituto Severino Ballesteros • 2025</p>
+              <span class="cert-tag">Soft Skills & Inteligência Emocional</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="section contact-section" id="contato">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-header">
+            <span class="section-tag">Vamos Construir Algo Incrível Juntos?</span>
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="contact-lead">
+              Estou sempre entusiasmada para trocar ideias sobre projetos desafiadores, oportunidades de estágio, dados e inteligência artificial. Sinta-se à vontade para me chamar!
+            </p>
+          </div>
+
+          <div class="contact-links-grid">
+            <a href="https://www.linkedin.com/in/ana-clara-silvestre-328706326" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon linkedin-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0 0-3.28 1.64 1.64 0 0 0 0 3.28m1.4 10.24v-8.37H5.06v8.37z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-type">LinkedIn</span>
+                <span class="channel-val">ana-clara-silvestre-328706326</span>
+              </div>
+              <span class="channel-arrow">→</span>
+            </a>
+
+            <div class="contact-channel-card email-card">
+              <div class="channel-icon email-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-type">Email</span>
+                <span class="channel-val" id="emailText">anas.silvestres@gmail.com</span>
+              </div>
+              <button class="copy-btn" id="copyEmailBtn" title="Copiar email">
+                <span id="copyFeedback">Copiar</span>
+              </button>
+            </div>
+
+            <a href="https://wa.me/5531988038607" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon whatsapp-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.21 8.21 0 0 1-1.26-4.37c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.14-.25-.02-.38.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-type">WhatsApp</span>
+                <span class="channel-val">(31) 98803-8607</span>
+              </div>
+              <span class="channel-arrow">→</span>
+            </a>
+
+            <a href="https://github.com/ana-silvestree" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon github-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-type">GitHub</span>
+                <span class="channel-val">ana-silvestree</span>
+              </div>
+              <span class="channel-arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Interativo de Detalhes de Projetos -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fechar janela">✕</button>
+      <div class="modal-body" id="modalDynamicContent">
+        <!-- Preenchido dinamicamente via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Ana Clara Silvestre • Desenvolvido com foco em alta performance e design responsivo.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ana-clara-silvestre-328706326" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/ana-silvestree" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:anas.silvestres@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
