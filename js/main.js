@@ -1,5 +1,5 @@
 /**
- * PORTFÓLIO ANA CLARA SILVESTRE
+ * PORTFÓLIO PROFISSIONAL - ANA CLARA SILVESTRE
  * JavaScript Interativo & Funcionalidades
  */
 
@@ -19,7 +19,6 @@ function initThemeToggle() {
   const themeToggle = document.getElementById('themeToggle');
   const htmlElement = document.documentElement;
 
-  // Verifica preferência salva ou do sistema
   const savedTheme = localStorage.getItem('theme');
   const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
@@ -69,28 +68,27 @@ function initMobileMenu() {
    3. FILTRO DE PROJETOS POR CATEGORIA
    ========================================================================== */
 function initProjectFilters() {
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const projectCards = document.querySelectorAll('.project-card');
+  const filterTabs = document.querySelectorAll('.filter-tab');
+  const projectEntries = document.querySelectorAll('.project-entry');
 
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      // Remove classe ativa de todos e adiciona no clicado
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+  filterTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      filterTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
 
-      const filterValue = btn.getAttribute('data-filter');
+      const filterValue = tab.getAttribute('data-filter');
 
-      projectCards.forEach(card => {
-        const category = card.getAttribute('data-category');
+      projectEntries.forEach(entry => {
+        const category = entry.getAttribute('data-category');
 
         if (filterValue === 'all' || category === filterValue) {
-          card.style.display = 'flex';
-          card.style.opacity = '0';
+          entry.style.display = 'block';
+          entry.style.opacity = '0';
           setTimeout(() => {
-            card.style.opacity = '1';
-          }, 50);
+            entry.style.opacity = '1';
+          }, 40);
         } else {
-          card.style.display = 'none';
+          entry.style.display = 'none';
         }
       });
     });
@@ -98,43 +96,43 @@ function initProjectFilters() {
 }
 
 /* ==========================================================================
-   4. MODAL DINÂMICO DE DETALHES DE PROJETOS
+   4. MODAL DINÂMICO DE DETALHAMENTO DE PROJETOS
    ========================================================================== */
 const projectDetails = {
   mahle: {
-    title: 'Previsão de Produção com Dados e Inteligência Artificial',
-    partner: 'Parceria Inteli + MAHLE (2026 - Atual)',
-    description: 'Projeto de alta complexidade desenvolvido em conjunto com a multinacional de autopeças MAHLE. O objetivo central é fornecer à gestão industrial e cadeia de suprimentos previsões acuradas de produção de veículos em toda a América Latina.',
+    title: 'Previsão Analítica de Produção Veicular na América Latina',
+    partner: 'Parceria Inteli & MAHLE (2026 – Atual)',
+    description: 'Solução analítica concebida em cooperação com a multinacional de autopeças MAHLE. O projeto visa subsidiar decisões estratégicas e mitigar incertezas na cadeia de suprimentos por meio de modelagem preditiva de séries temporais com rigor metodológico.',
     details: [
-      '<strong>Engenharia de Atributos & Pré-processamento:</strong> Limpeza profunda de bases históricas, normalização de variáveis sazonais e criação de novos atributos combinando indicadores macroeconômicos (inflação, taxas de juros, taxa de câmbio) com dados do setor automotivo.',
-      '<strong>Modelagem Preditiva com LightGBM:</strong> Implementação do algoritmo LightGBM, otimizado para lidar com não-linearidades e séries temporais com validação temporal estrita (rolling-window / time-series split) para eliminar riscos de vazamento de dados.',
-      '<strong>Métricas & Validação Industrial:</strong> Avaliação contínua por métricas de erro (RMSE, MAE, MAPE) comparadas a benchmarks tradicionais de planejamento da empresa.',
-      '<strong>Visão de Negócio:</strong> Integração direta de insights analíticos ao planejamento de produção, reduzindo gargalos logísticos e custos de estoque.'
+      '<strong>Engenharia de Atributos & Tratamento de Dados:</strong> Limpeza, imputação e normalização de séries históricas de produção combinadas a indicadores macroeconômicos (taxas de juros, inflação, índices de confiança industrial e câmbio). Criação de variáveis defasadas (*lag features*) e médias móveis.',
+      '<strong>Modelagem com LightGBM:</strong> Implementação e tunagem de hiperparâmetros de algoritmo baseado em árvores de decisão impulsionadas por gradiente, com tratamento explícito de não-linearidades e padrões sazonais.',
+      '<strong>Estratégia de Validação Temporal:</strong> Adoção estrita de validação com divisão temporal (*time-series split / rolling window*), eliminando qualquer risco de vazamento de dados futuros (*data leakage*).',
+      '<strong>Avaliação de Métricas:</strong> Mensuração comparativa por meio de métricas quantitativas de erro (RMSE, MAE e MAPE) frente aos benchmarks de planejamento histórico da empresa.'
     ],
     stack: ['Python', 'LightGBM', 'Scikit-Learn', 'Pandas', 'NumPy', 'Séries Temporais', 'Business Analytics']
   },
   agroflow: {
     title: 'AgroFlow: Sistema Web para Gestão de Rebanho Offline-First',
-    partner: 'Parceria Inteli + BrPec Agropecuária (2026)',
-    description: 'Solução digital completa desenvolvida sob medida para a BrPec Agropecuária. O principal desafio técnico era operar com estabilidade e confiança nas áreas remotas de pasto e currais, onde não há sinal de internet estável.',
+    partner: 'Parceria Inteli & BrPec Agropecuária (2026)',
+    description: 'Solução digital full-stack desenvolvida para atender às demandas de rastreabilidade e gestão do manejo bovino em propriedades agropecuárias com infraestrutura de rede instável ou ausente.',
     details: [
-      '<strong>Arquitetura Offline-First:</strong> Armazenamento local no cliente com mecanismo de sincronização bidirecional que detecta o retorno da conexão e resolve conflitos de dados de maneira determinística.',
-      '<strong>Backend Escalável & Seguro:</strong> API REST construída em Node.js com framework Express, conectada ao banco de dados relacional PostgreSQL hospedado no Supabase.',
-      '<strong>Autenticação por QR Code:</strong> Agilidade de login e auditoria para peões e veterinários no manejo do rebanho sem necessidade de digitação complexa em dispositivos móveis.',
-      '<strong>Engenharia de Qualidade:</strong> Suíte completa de testes automatizados unitários e de integração utilizando Jest, garantindo integridade transacional.'
+      '<strong>Arquitetura Offline-First:</strong> Estrutura de armazenamento local no navegador aliada a rotina de sincronização bidirecional resiliente, garantindo persistência imediata no curral e resolução determinística de conflitos na conexão.',
+      '<strong>Backend & Banco Relacional:</strong> API REST estruturada em Node.js com framework Express, integrada a banco de dados PostgreSQL gerenciado via Supabase, garantindo integridade referencial.',
+      '<strong>Autenticação por QR Code:</strong> Mecanismo de identificação ágil e seguro para operadores de campo, eliminando atritos de autenticação durante o manejo do rebanho.',
+      '<strong>Garantia de Qualidade de Software:</strong> Suíte de testes unitários e de integração desenvolvida com Jest, validando endpoints críticos e regras de negócio agropecuárias.'
     ],
-    stack: ['Node.js', 'Express', 'PostgreSQL', 'Supabase', 'Jest', 'TypeScript/JavaScript', 'Offline Sync']
+    stack: ['Node.js', 'Express', 'PostgreSQL', 'Supabase', 'Jest', 'TypeScript', 'Offline-First']
   },
   megahub: {
-    title: 'MegaHub: Jogo Educativo Digital Interativo',
-    partner: 'Parceria Inteli + Metrô de São Paulo (2026)',
-    description: 'Experiência gamificada criada para os visitantes e delegações que passam pelo Centro de Operações do Metrô de São Paulo. A solução converte a complexidade dos sistemas de sinalização, intervalos de trens e manobras em um jogo educativo envolvente.',
+    title: 'MegaHub: Protótipo Interativo Gamificado',
+    partner: 'Parceria Inteli & Metrô de São Paulo (2026)',
+    description: 'Ambiente digital gamificado concebido para visitantes técnicos e delegações do Centro de Operações do Metrô de São Paulo, sintetizando rotinas de tráfego metroviário em uma experiência de alta fidelidade visual e cognitiva.',
     details: [
-      '<strong>Desenvolvimento de Mecânicas:</strong> Criação em JavaScript nativo com o framework de física e renderização 2D Phaser 3 em HTML5 Canvas.',
-      '<strong>Experiência do Usuário (UX):</strong> Pesquisas de perfil de público, mapeamento de jornadas de jogadores e refinamento ergonômico de controles para todas as faixas etárias.',
-      '<strong>Metodologias Ágeis:</strong> Entregas incrementais com testes de usabilidade e feedback contínuo da equipe de comunicação e operações do Metrô.'
+      '<strong>Engenharia de Mecânicas:</strong> Desenvolvimento integral em JavaScript com motor de jogos Phaser 3 sobre canvas HTML5, implementando sistemas de física 2D, sinalização e intervalos entre trens.',
+      '<strong>Design Centrado no Usuário (UX):</strong> Pesquisa de ergonomia visual, hierarquia de informações e prototipação iterativa para assegurar acessibilidade a públicos diversos.',
+      '<strong>Metodologias Ágeis:</strong> Condução do projeto em sprints quinzenais sob framework Scrum/Kanban, com ciclos de testes de usabilidade e refinamentos contínuos.'
     ],
-    stack: ['JavaScript', 'Phaser 3', 'HTML5 Canvas', 'UX Design', 'Scrum / Metodologias Ágeis']
+    stack: ['JavaScript', 'Phaser 3', 'HTML5 Canvas', 'UX Design', 'Metodologias Ágeis (Scrum)']
   }
 };
 
@@ -165,10 +163,10 @@ function initProjectModal() {
         <h3>${data.title}</h3>
         <span class="modal-partner">${data.partner}</span>
         <p>${data.description}</p>
-        <h4 class="modal-section-title">Destaques da Implementação:</h4>
+        <h4 class="modal-section-title">Detalhamento Técnico e Metodológico:</h4>
         <ul>${detailsList}</ul>
-        <h4 class="modal-section-title">Tecnologias Utilizadas:</h4>
-        <div class="tech-tags">${stackBadges}</div>
+        <h4 class="modal-section-title">Tecnologias Empregadas:</h4>
+        <div class="tech-stack-row">${stackBadges}</div>
       `;
 
       modal.classList.add('open');
@@ -197,28 +195,26 @@ function initProjectModal() {
 }
 
 /* ==========================================================================
-   5. COPIAR EMAIL COM 1 CLIQUE
+   5. COPIAR E-MAIL PROFISSIONAL
    ========================================================================== */
 function initCopyEmail() {
-  const copyBtn = document.getElementById('copyEmailBtn');
-  const emailText = document.getElementById('emailText');
+  const copyBtn = document.getElementById('copyEmailAction');
+  const emailField = document.getElementById('emailField');
   const feedback = document.getElementById('copyFeedback');
 
-  if (!copyBtn || !emailText || !feedback) return;
+  if (!copyBtn || !emailField || !feedback) return;
 
   copyBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText(emailText.textContent.trim()).then(() => {
-      feedback.textContent = 'Copiado! ✓';
-      copyBtn.style.background = 'var(--success)';
-      copyBtn.style.borderColor = 'var(--success)';
-      copyBtn.style.color = '#ffffff';
+    navigator.clipboard.writeText(emailField.textContent.trim()).then(() => {
+      feedback.textContent = 'Copiado';
+      copyBtn.style.borderColor = 'var(--accent-primary)';
+      copyBtn.style.color = 'var(--accent-primary)';
 
       setTimeout(() => {
         feedback.textContent = 'Copiar';
-        copyBtn.style.background = '';
         copyBtn.style.borderColor = '';
         copyBtn.style.color = '';
-      }, 2500);
+      }, 2000);
     }).catch(err => {
       console.error('Falha ao copiar:', err);
     });
@@ -237,7 +233,7 @@ function initScrollSpy() {
 
     sections.forEach(current => {
       const sectionHeight = current.offsetHeight;
-      const sectionTop = current.offsetTop - 120;
+      const sectionTop = current.offsetTop - 100;
       const sectionId = current.getAttribute('id');
 
       if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {

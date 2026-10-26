@@ -1,75 +1,76 @@
 <div align="center">
 
-# Olá, mundo! Sou a Ana Clara Silvestre 👋
-### 🚀 Estudante de Ciência da Computação @ Inteli | Engenharia de Software • Dados & IA • Produto
+# Ana Clara Silvestre
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ana_Clara_Silvestre-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
-[![Email](https://img.shields.io/badge/Email-anas.silvestres%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.silvestres@gmail.com)
-[![Portfólio Web](https://img.shields.io/badge/Portfólio-Acessar_Site-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ana-silvestree.github.io/portfolio)
-[![Localização](https://img.shields.io/badge/Localização-São_Paulo,_Brasil-10B981?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+### Bacharelado em Ciência da Computação • Inteli
+**Engenharia de Software | Ciência de Dados & Machine Learning | Estratégia de Produto**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%40+Inteli;Engenharia+de+Software+%2B+Dados+%26+Machine+Learning;Solu%C3%A7%C3%B5es+reais+para+o+mercado+(PBL);Vis%C3%A3o+de+Produto+%2B+Lideran%C3%A7a+Colaborativa" alt="Typing SVG" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ana_Clara_Silvestre-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
+[![Email](https://img.shields.io/badge/Email-anas.silvestres%40gmail.com-1E293B?style=flat-square&logo=gmail&logoColor=white)](mailto:anas.silvestres@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-ana--silvestree-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ana-silvestree)
+[![Localização](https://img.shields.io/badge/Localização-São_Paulo,_SP-475569?style=flat-square)](#)
 
 </div>
 
 ---
 
-## 👩‍💻 Sobre Mim
+## Resumo Profissional
 
-Sou estudante de **Ciência da Computação no Inteli (Instituto de Tecnologia e Liderança)**, com graduação prevista para 2029. Minha formação é fundamentada na metodologia **PBL (Project-Based Learning)**, desenvolvendo soluções de tecnologia de ponta a ponta em parceria com grandes empresas do mercado.
+Estudante de Ciência da Computação no **Inteli (Instituto de Tecnologia e Liderança)**, com graduação prevista para 2029. Formação pautada na metodologia de aprendizagem baseada em projetos (*Project-Based Learning — PBL*), atuando no desenvolvimento de soluções computacionais sob demanda para grandes organizações corporativas e institucionais.
 
-Minha atuação se dá na interseção entre **Engenharia de Software, Ciência de Dados / Inteligência Artificial e Estratégia de Negócios**:
-- 🎯 **Visão de Produto & Requisitos:** Imersão profunda na dor do usuário, definição de personas, mapeamento de processos e alinhamento estratégico de negócios.
-- ⚙️ **Arquitetura & Engenharia:** Desenvolvimento de soluções full-stack, bancos relacionais robustos, arquiteturas *offline-first* e testes automatizados.
-- 📊 **Machine Learning & Dados:** Engenharia de atributos, séries temporais e modelos preditivos com validação rigorosa aplicados a contextos industriais e de negócios.
-- 💡 **Liderança & Comunidade:** Experiência prática em gestão financeira de empresa júnior (**Inteli Júnior**), fomento de mulheres na tecnologia (**Coletivo Feminino Grace Hopper**) e soluções tecnológicas para o agronegócio (**Agrotech**).
+Atuação consistente na interseção entre **Engenharia de Software**, **Ciência de Dados / Inteligência Artificial** e **Estratégia de Negócios**:
+
+- **Engenharia de Requisitos & Produto:** Diagnóstico estruturado de processos, mapeamento de jornadas de usuários, modelagem relacional e alinhamento a indicadores estratégicos de negócios.
+- **Desenvolvimento & Arquitetura de Software:** Implementação de sistemas web distribuídos, arquiteturas *offline-first*, integrações de APIs RESTful, bancos de dados relacionais e suítes de testes automatizados com foco em integridade e desempenho.
+- **Machine Learning & Modelagem Analítica:** Tratamento de dados complexos, engenharia de atributos (*feature engineering*), análise de séries temporais e validação temporal estrita de modelos preditivos aplicados ao ambiente industrial.
+- **Governança & Gestão Financeira:** Experiência em controladoria, conciliação e planejamento orçamentário na empresa júnior (**Inteli Júnior**), aliada à liderança institucional em diversidade (**Coletivo Feminino Grace Hopper**).
 
 ---
 
-## 🚀 Projetos em Destaque
+## Projetos em Destaque
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3 align="center">🚗 MAHLE</h3>
-      <p align="center"><strong>Previsão de Produção com IA</strong></p>
-      <p align="center"><em>Inteli + MAHLE</em></p>
-      <p>Solução analítica preditiva para estimativa da produção de veículos na América Latina, cruzando séries históricas e variáveis macroeconômicas.</p>
+      <h3 align="center">MAHLE</h3>
+      <p align="center"><strong>Previsão de Produção com Dados e Machine Learning</strong></p>
+      <p align="center"><em>Inteli & MAHLE • 2026 – Atual</em></p>
+      <p>Desenvolvimento de modelo preditivo para projeção quantitativa da produção automotiva na América Latina, cruzando bases históricas e indicadores macroeconômicos.</p>
       <ul>
-        <li>Pipeline de normalização e engenharia de atributos (feature engineering)</li>
-        <li>Modelo preditivo baseado em <strong>LightGBM</strong> com validação temporal</li>
-        <li>Apoio quantitativo à tomada de decisão e planejamento industrial</li>
+        <li>Pipeline de tratamento de dados e engenharia de atributos para séries temporais.</li>
+        <li>Modelagem com <strong>LightGBM</strong> e estratégias de validação temporal estrita para mitigar riscos de <em>data leakage</em>.</li>
+        <li>Suporte quantitativo ao planejamento operacional e de suprimentos.</li>
       </ul>
       <p align="center">
-        <code>Python</code> <code>Pandas</code> <code>LightGBM</code> <code>Scikit-Learn</code> <code>Time Series</code>
+        <code>Python</code> <code>LightGBM</code> <code>Pandas</code> <code>Scikit-Learn</code> <code>Time Series</code>
       </p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">🌾 AgroFlow</h3>
-      <p align="center"><strong>Gestão de Rebanho Offline-First</strong></p>
-      <p align="center"><em>Inteli + BrPec Agropecuária</em></p>
-      <p>Sistema web full-stack desenvolvido para pecuaristas em regiões com conectividade baixa ou nula no campo.</p>
+      <h3 align="center">AgroFlow</h3>
+      <p align="center"><strong>Gestão de Rebanho com Arquitetura Offline-First</strong></p>
+      <p align="center"><em>Inteli & BrPec Agropecuária • 2026</em></p>
+      <p>Sistema web full-stack projetado para garantir continuidade operacional em áreas rurais com baixa ou nula conectividade à internet.</p>
       <ul>
-        <li>Arquitetura <strong>offline-first</strong> com sincronização resiliente de dados</li>
-        <li>Backend em <strong>Node.js/Express</strong> com <strong>PostgreSQL (Supabase)</strong></li>
-        <li>Autenticação por QR Code e testes automatizados com <strong>Jest</strong></li>
+        <li>Arquitetura <em>offline-first</em> com rotina resiliente de sincronização bidirecional.</li>
+        <li>Backend estruturado em <strong>Node.js</strong> e <strong>Express</strong> sobre <strong>PostgreSQL (Supabase)</strong>.</li>
+        <li>Autenticação por QR Code e testes automatizados unitários e de integração com <strong>Jest</strong>.</li>
       </ul>
       <p align="center">
         <code>Node.js</code> <code>Express</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Jest</code> <code>REST APIs</code>
       </p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">🚇 MegaHub</h3>
-      <p align="center"><strong>Jogo Educativo Digital</strong></p>
-      <p align="center"><em>Inteli + Metrô de São Paulo</em></p>
-      <p>Protótipo gamificado interativo criado para engajar visitantes do Centro de Operações do Metrô de São Paulo.</p>
+      <h3 align="center">MegaHub</h3>
+      <p align="center"><strong>Solução Interativa para Centro de Operações</strong></p>
+      <p align="center"><em>Inteli & Metrô de São Paulo • 2026</em></p>
+      <p>Protótipo digital interativo concebido para difusão do funcionamento operacional e logístico das linhas metroviárias para visitantes técnicos.</p>
       <ul>
-        <li>Desenvolvimento completo em <strong>JavaScript</strong> com <strong>Phaser 3</strong></li>
-        <li>Design de mecânicas de jogo centradas na experiência do usuário (UX)</li>
-        <li>Ciclos iterativos de validação e refinamento em metodologia ágil</li>
+        <li>Desenvolvimento integral em <strong>JavaScript</strong> utilizando o motor <strong>Phaser 3</strong>.</li>
+        <li>Estruturação de mecânicas orientadas à experiência do usuário (UX) e usabilidade.</li>
+        <li>Validação iterativa em ciclos ágeis (Scrum/Kanban) em alinhamento com a diretoria do parceiro.</li>
       </ul>
       <p align="center">
-        <code>JavaScript</code> <code>Phaser 3</code> <code>HTML5 Canvas</code> <code>UX/UI</code> <code>Agile</code>
+        <code>JavaScript</code> <code>Phaser 3</code> <code>HTML5 Canvas</code> <code>UX Design</code> <code>Scrum</code>
       </p>
     </td>
   </tr>
@@ -77,94 +78,76 @@ Minha atuação se dá na interseção entre **Engenharia de Software, Ciência 
 
 ---
 
-## 🛠️ Tecnologias & Competências
+## Competências Técnicas & Metodológicas
+
+### Linguagens de Programação & Desenvolvimento
+![Python](https://img.shields.io/badge/Python-334155?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-334155?style=flat-square&logo=javascript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-334155?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-334155?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-334155?style=flat-square&logo=css3&logoColor=white)
+
+### Engenharia de Software & Banco de Dados
+![Node.js](https://img.shields.io/badge/Node.js-1E293B?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-1E293B?style=flat-square&logoColor=white)
+![React](https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1E293B?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-1E293B?style=flat-square&logo=supabase&logoColor=white)
+![REST APIs](https://img.shields.io/badge/APIs_REST-1E293B?style=flat-square&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-1E293B?style=flat-square&logo=jest&logoColor=white)
+
+### Ciência de Dados & Machine Learning
+![LightGBM](https://img.shields.io/badge/LightGBM-0F172A?style=flat-square&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0F172A?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-0F172A?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-0F172A?style=flat-square&logo=numpy&logoColor=white)
+![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-0F172A?style=flat-square&logoColor=white)
+![Séries Temporais](https://img.shields.io/badge/Séries_Temporais-0F172A?style=flat-square&logoColor=white)
+
+### Metodologias, Governança & Negócios
+![Project-Based Learning](https://img.shields.io/badge/Project--Based_Learning_(PBL)-475569?style=flat-square)
+![Scrum](https://img.shields.io/badge/Scrum-475569?style=flat-square)
+![Kanban](https://img.shields.io/badge/Kanban-475569?style=flat-square)
+![Análise de Requisitos](https://img.shields.io/badge/Análise_de_Requisitos-475569?style=flat-square)
+![Mapeamento de Processos](https://img.shields.io/badge/Mapeamento_de_Processos-475569?style=flat-square)
+![Planejamento Orçamentário](https://img.shields.io/badge/Planejamento_Orçamentário-475569?style=flat-square)
+
+---
+
+## Experiência Extracurricular & Liderança
+
+- **Inteli Júnior — Administradora Financeira (ago. 2026 – atual):**  
+  Gestão financeira e planejamento orçamentário da empresa júnior, realizando controle de fluxo de caixa, conciliação contábil e fornecimento de subsídios analíticos para decisões financeiras estratégicas.
+- **Coletivo Feminino Grace Hopper — Trainee (abr. 2026 – atual):**  
+  Atuação em iniciativas institucionais de liderança feminina, diversidade, inclusão e ampliação de redes profissionais no setor tecnológico.
+- **Agrotech — Trainee (ago. 2026 – atual):**  
+  Suporte à estruturação de soluções tecnológicas para o agronegócio, atuando com pesquisa mercadológica, levantamento de requisitos de campo e análise exploratória de dados.
+
+---
+
+## Formação Acadêmica & Certificações
+
+- **Bacharelado em Ciência da Computação** — Inteli (Previsão: 2029)
+- **Mentoria Feminina em Mercado Financeiro** — Grupo de Mercado Financeiro (GMF Unicamp, 2026)
+- **Liderança Corporativa** — Santander Open Academy (2026)
+- **Banco de Dados Relacional e SQL: Do Básico ao Avançado** — Udemy (2026)
+- **Qualidade de Software e Testes Automatizados** — Udemy (2026)
+- **Desenvolvimento Pessoal e Liderança** — Instituto Severino Ballesteros (2025)
+
+---
+
+## Métricas & Atividade no GitHub
 
 <div align="center">
-
-### 💻 Linguagens & Desenvolvimento
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### ⚙️ Frameworks, Backend & Banco de Dados
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Phaser 3](https://img.shields.io/badge/Phaser_3-000000?style=flat-square&logo=html5&logoColor=white)
-
-### 📈 Dados & Inteligência Artificial
-![LightGBM](https://img.shields.io/badge/LightGBM-34D399?style=flat-square&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-6366F1?style=flat-square&logoColor=white)
-
-### 🧪 Qualidade, Ferramentas & Métodos
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Scrum](https://img.shields.io/badge/Scrum-0284C7?style=flat-square&logoColor=white)
-![Kanban](https://img.shields.io/badge/Kanban-8B5CF6?style=flat-square&logoColor=white)
-![PBL](https://img.shields.io/badge/Metodologia_PBL-EC4899?style=flat-square&logoColor=white)
-
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=ana-silvestree&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&title_color=6366f1&icon_color=8b5cf6" alt="Estatísticas GitHub" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ana-silvestree&layout=compact&theme=dark&hide_border=true&title_color=6366f1" alt="Linguagens mais utilizadas" />
 </div>
 
 ---
 
-## 👥 Liderança & Atuação Extracurricular
+## Contato Profissional
 
-- 💼 **Inteli Júnior — Administradora Financeira (2026 – atual):**
-  Planejamento orçamentário, conciliação e fluxo de caixa da empresa júnior do Inteli, apoiando decisões financeiras estratégicas com disciplina contábil e visão de negócios.
-- 💜 **Coletivo Feminino Grace Hopper — Trainee (2026 – atual):**
-  Iniciativa dedicada ao desenvolvimento de liderança, diversidade, inclusão e networking feminino no setor de tecnologia.
-- 🌾 **Agrotech — Trainee (2026 – atual):**
-  Pesquisa de mercado, levantamento de requisitos e análise de dados para o desenvolvimento de soluções voltadas ao ecossistema do agronegócio.
-
----
-
-## 📜 Certificações & Formação Contínua
-
-- 🎓 **Bacharelado em Ciência da Computação** — *Inteli (2025 – 2029)*
-- 🏅 **Mentoria Feminina em Mercado Financeiro** — *GMF Unicamp (2026)*
-- 🏅 **Liderança** — *Santander Open Academy (2026)*
-- 🏅 **Curso Completo de SQL: Do Básico ao Avançado** — *Udemy (2026)*
-- 🏅 **Qualidade e Testes de Software** — *Udemy (2026)*
-- 🏅 **Desenvolvimento Pessoal & Competências Comportamentais** — *Instituto Severino Ballesteros (2025)*
-
----
-
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=ana-silvestree&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&title_color=6366f1&icon_color=8b5cf6" alt="Estatísticas do GitHub" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ana-silvestree&layout=compact&theme=tokyonight&hide_border=true&title_color=6366f1" alt="Linguagens mais utilizadas" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ana-silvestree&theme=tokyonight&hide_border=true&stroke=6366f1" alt="Streak do GitHub" />
-</div>
-
----
-
-## 📫 Vamos Conversar?
-
-Estou sempre aberta a novas conexões, projetos desafiadores e oportunidades de colaboração técnica e de produto!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anas.silvestres@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5531988038607)
-
-</div>
-
-<br />
-
-<div align="center">
-  <sub>Construído com foco em inovação, dados e impacto real • <strong>Ana Clara Silvestre</strong></sub>
-</div>
+- **LinkedIn:** [linkedin.com/in/ana-clara-silvestre-328706326](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
+- **Email:** [anas.silvestres@gmail.com](mailto:anas.silvestres@gmail.com)
+- **GitHub:** [github.com/ana-silvestree](https://github.com/ana-silvestree)
