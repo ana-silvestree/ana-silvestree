@@ -2,8 +2,11 @@
 
 # Ana Clara Silvestre
 
+### Bacharelado em Ciência da Computação • Inteli
+**Desenvolvimento de Software | Ciência de Dados & Machine Learning | Estratégia de Negócios**
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=620&lines=Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%E2%80%A2+Inteli;Engenharia+de+Software+%2B+Machine+Learning;Solu%C3%A7%C3%B5es+Corporativas+Orientadas+a+Dados;Vis%C3%A3o+de+Produto+%2B+Estrat%C3%A9gia" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=620&lines=Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%E2%80%A2+Inteli;Desenvolvimento+de+Software+%2B+Machine+Learning;Solu%C3%A7%C3%B5es+Corporativas+Orientadas+a+Dados;Vis%C3%A3o+de+Produto+%2B+Estrat%C3%A9gia" alt="Typing SVG" />
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ana_Clara_Silvestre-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ana-clara-silvestre-328706326)
@@ -18,12 +21,12 @@
 <table>
   <tr>
     <td align="center" width="33%">
-      <h4>Engenharia de Software</h4>
+      <h4>Desenvolvimento de Software</h4>
       <sub>Arquiteturas web distribuídas, sistemas <i>offline-first</i>, APIs RESTful e integridade com testes automatizados.</sub>
     </td>
     <td align="center" width="33%">
       <h4>Ciência de Dados & IA</h4>
-      <sub>Pipelines analíticos, engenharia de atributos, séries temporais e modelagem preditiva com LightGBM.</sub>
+      <sub>Pipelines analíticos, tratamento de atributos, séries temporais e modelagem preditiva com LightGBM.</sub>
     </td>
     <td align="center" width="33%">
       <h4>Estratégia & Produto</h4>
